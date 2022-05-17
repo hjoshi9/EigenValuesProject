@@ -11,5 +11,5 @@ main_gpu : ./<gpu_app> <mode> <size of matrix> <mode>
 
 mian_gpu_omp : ./<omp+gpu_app> <mode> <size of matrix>
 
-where mode = 1 for Power iteration method
+where mode = 1 for Power iteration method, 
              2 for Jacobi method
