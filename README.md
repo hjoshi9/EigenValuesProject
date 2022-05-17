@@ -5,11 +5,11 @@ Each file conists of serial implementation as well a parallel implementation usi
 Usage:
 After complitaion, invoke the created applications with as:
 
-main_omp : ./<omp_app> <size of matrix> <mode> <number of threads>
+main_omp : ./omp_app <size of matrix> <mode> <number of threads>
 
-main_gpu : ./<gpu_app> <mode> <size of matrix> <mode>
+main_gpu : ./gpu_app <mode> <size of matrix> <mode>
 
-mian_gpu_omp : ./<omp+gpu_app> <mode> <size of matrix>
+mian_gpu_omp : ./omp+gpu_app <mode> <size of matrix>
 
 where mode = 1 for Power iteration method, 
              2 for Jacobi method
